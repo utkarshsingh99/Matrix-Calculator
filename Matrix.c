@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <conio.h>
-void inverse();
-void multiply();
+void inverse();			//Finds inverse
+void multiply();		//Finds multiplication of matrices
 int main()
 {
 	int a=0;
 	do
 	{
-		printf("Enter 1 to find inverse, and 2 to multply to matrices:\n");
+		printf("Enter 1 to find inverse, and 2 to multply to matrices:\n"); //Menu
 		scanf("%d",&a);
 		switch(a)
 		{
